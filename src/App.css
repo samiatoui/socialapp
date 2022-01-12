@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App section {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  text-align: center;
+  max-width: 728px;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  background-color: #f7f7f7;
+}
+
+form {
+  height: 5vh;
+  position: relative;
+  bottom: 55rem;
+  background-color: rgb(24, 23, 23);
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  font-size: 1.5rem;
+  left: 8.5rem;
+}
+
+form button {
+  width: 50px;
+  height: 25px;
+  border-radius: 0rem;
+  background-color: #00d9ff;
+  position: absolute;
+  top: 1.3vh;
+  left: 27rem;
+}
+
+input {
+  line-height: 1.5;
+  width: 100%;
+  font-size: 1.5rem;
+  color: grey;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+}
+
+
+.message {
+  position: relative;
+  display: block;
+  align-items: center;
+  background-color: white;
+  width: 520px;
+  left: 8rem;
+  margin-bottom: 10px;
+}
+
+.userInfo{
+  display: flex;
+}
+
+h3{
+  display:block;
+}
+
+.sent {
+  flex-direction: row;
+}
+
+.sent p {
+  color: black;
+  margin-left: 10px;
+}
+
+p {
+  max-width: 500px;
+  line-height: 24px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  left: 60px;
+  bottom: 2rem;
+}
+
+main {
+  padding: 10px;
+  height: 80vh;
+  margin: 10vh 0 10vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 15px 15px;
+  
 }
