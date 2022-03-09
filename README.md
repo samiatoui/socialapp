@@ -1,7 +1,7 @@
 #
 
 This application was created to practice React and Firebase applications. 
-This is intended to a twitter inspired clone.
+This is a twitter inspired clone.
 
 # Getting Started with Create React App
 
